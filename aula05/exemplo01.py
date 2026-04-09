@@ -1,6 +1,6 @@
 
 ## IF encadeado
-print('IF encadeado')
+#print('IF encadeado')
 nota = float(input('Informe a nota do aluno: '))
 
 if nota >= 9:

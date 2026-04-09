@@ -1,4 +1,3 @@
-
 nota_aluno = float(input('Informe a nota do aluno: '))
 frequencia = float(input('Informe a frequência do aluno: '))
 
