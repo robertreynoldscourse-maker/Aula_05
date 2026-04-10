@@ -1,12 +1,10 @@
-# Faixa etária
-idade = int(input('Informe a idade da pessoa: '))
-
-match idade:
-    case j if 0 <= j < 12:
-        print('Criança')
-    case j if 12 <= j <18:
-        print('Adolescente')
-    case j if j>=18:
-        print('Adulto')
-    case _:
-        print('Idade Inválida') 
+#Escolha forma de pagamento
+venda = float(input('Informe o valor da venda: '))
+#alt+shift para copiar a fila toda.
+print("""
+ESCOLHA A FORMA DE PAGAMENTO
+1 - Pix (12% de desconto)
+2 - Débito (8% de desconto)
+3 - Crédito (5% de desconto)
+4 - Dinheiro (15% de desconto)
+""")

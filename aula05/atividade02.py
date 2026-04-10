@@ -7,3 +7,5 @@ match numero:
         print('O número é neutro.')
     case i if i > 0:
         print('O número é positivo.')
+    case _:
+        print('Não digitou um número real.')
